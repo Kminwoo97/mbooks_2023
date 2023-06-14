@@ -7,7 +7,7 @@ spring:
     init:
       mode: always
   datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   batch:
     job:
       name: ${job.name:NONE}
