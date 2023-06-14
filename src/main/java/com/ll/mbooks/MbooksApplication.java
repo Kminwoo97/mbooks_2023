@@ -17,7 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableCaching
 public class MbooksApplication {
 
-    public static void main(String[]  args) {
+    public static void main(String[] args) {
         SpringApplication.run(MbooksApplication.class, args);
     }
 

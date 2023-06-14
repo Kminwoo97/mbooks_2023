@@ -5,7 +5,7 @@ spring:
       - base-addi
   sql:
     init:
-      mode: always
+      mode: never
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
   batch:
